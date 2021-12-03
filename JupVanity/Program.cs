@@ -128,7 +128,7 @@ namespace NxtRSVanity
                 string rsAddr = "JUP-" + ReedSolomon.Encode((long)CreateAddress(secret), true);
                 Console.Write("Found!: {0}", rsAddr);
                 Console.CursorLeft = 0;
-                sw.WriteLine("{0}: Addr: {2}, Passphrase: {1}", DateTime.Now.ToString(), secret, rsAddr);
+                sw.WriteLine("{0}: Addr: {2}, PassPhrase: {1}", DateTime.Now.ToString(), secret, rsAddr);
                 sw.Flush();
                 sw.Close();
             }
@@ -202,7 +202,11 @@ Search for a specific regex pattern.
 Print this help document.
 
 If you've found this application helpful, please send tips to 
-JUP-7UJ5-YP4Z-V973-GREEN"
+
+JUP-7UJ5-YP4Z-V973-GREEN
+
+Please also consider tipping the original author
+who created this tool for NXT: 1102622531"
                         );
                         Console.ReadKey();
                         Environment.Exit(0);
