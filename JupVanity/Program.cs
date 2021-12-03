@@ -101,7 +101,7 @@ namespace NxtRSVanity
                         if (lastBenchmark.AddSeconds(1) < DateTime.Now)
                         {
                             Console.CursorTop = 0;
-                            Console.Write("Executing {0:F3} kh/s!".PadRight(50), ((float)iterations) / 1000);
+                            Console.Write("Searching {0:F3} kh/s!".PadRight(50), ((float)iterations) / 1000);
                             Console.CursorLeft = 0;
                             iterations = 0;
                             lastBenchmark = DateTime.Now;
