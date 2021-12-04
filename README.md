@@ -25,4 +25,9 @@ JupVanity.exe --help
 ```
 
 Once an address has been found, a file named jupvanity.txt will be created in the same folder as the application.
-If this file already exists, results will be appended.
+This file contains the generated address and passphrase required to access it. If this file already exists, results will be appended.
+
+
+If you've found this application useful, tips can be sent to - JUP-GG8Y-7CAS-4G9A-77777
+
+Thank you to the original author who was kind enough to share the source and make this possible - NXT: 1102622531
