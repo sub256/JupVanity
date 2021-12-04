@@ -2,6 +2,8 @@
 
 ## How to use:
 
+Dowload the application https://github.com/sub256/JupVanity/releases/download/v.1.0/JupVanity.exe or build it yourself.
+
 --beginswith, -b:
 Search for specific text at the beginning of the address. The numbers 0, 1 and letters I, O cannot be used in the address. 
 
